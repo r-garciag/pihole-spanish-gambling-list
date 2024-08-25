@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/r-garciag/pihole-spanish-gambling-list/main/ho
 
 The adlist will get updated as soon as the oficial site lists a new site, the last update will be printed on the list itself.
 
-Last update (dd/mm/yyyy): 24-10-2020
+Last update (dd/mm/yyyy): 25-08-2024
 
 
 ### Using this list with PiHole
