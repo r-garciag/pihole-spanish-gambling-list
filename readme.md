@@ -1,20 +1,17 @@
 # Spanish Gambling Adlist
-A blocklist of every gambling site allowed in Spain.
+A blocklist of every gambling site allowed in Spain. It auto-updates everyday using Github Actions.
 
 ## Description
 
 This blocklist is 100% compatible with [PiHole](pihole.net) and [Adguard Home](https://github.com/AdguardTeam/AdGuardHome) It uses the Consumer Ministry's list of allowed gambling websites in Spain.
 
 ```
-https://raw.githubusercontent.com/r-garciag/pihole-spanish-gambling-list/main/hosts
+https://raw.githubusercontent.com/r-garciag/pihole-spanish-gambling-list/refs/heads/main/es_gambling_hosts.txt
 ```
 
 ### About the adlist itslef
 
-The adlist will get updated as soon as the oficial site lists a new site, the last update will be printed on the list itself.
-
-Last update (dd/mm/yyyy): 25-08-2024
-
+The adlist will get updated as soon as the oficial site lists a new site, the last update will be printed on the list itself. 
 
 ## Instructions for the following AdBlockers
 - PiHole
