@@ -26,8 +26,8 @@ for page in {0..8}; do
     # Descargar contenido de la página (ignorando certificados)
     webpage_content=$(curl -ks "https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=$page")
 
-    # Extraer URLs dentro de <div class="item-list">
-    extracted_urls=$(echo "$webpage_content" | grep -oP '(?<=<div class="item-list">).*?(?=</div>)' | grep -oP 'https?://[^" ]+')
+    # Extraer URLs dentro de <div class="item-list"> asegurando que sean URLs limpias
+    extracted_urls=$(echo "$webpage_content" | grep -oP '(?<=href=")https?://[^"<> ]+')
 
     # Añadir URLs al archivo solo si se encontraron
     if [[ -n "$extracted_urls" ]]; then
@@ -38,7 +38,7 @@ done
 # Ordenar y eliminar duplicados
 sort -u -o "$OUTPUT_FILE" "$OUTPUT_FILE"
 
-# Contar el número de dominios únicos
+# Contar el número de dominios únicos (sin rutas repetidas)
 url_count=$(grep -Eo 'https?://[^/"]+' "$OUTPUT_FILE" | sort -u | wc -l)
 
 # Reemplazar el marcador XX con el número real de dominios
