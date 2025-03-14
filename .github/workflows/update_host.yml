@@ -19,10 +19,10 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Dar permisos de ejecución al script
-        run: chmod +x extracer_urls_paralelo.sh
+        run: chmod +x extraer_urls_paralelo.sh
 
       - name: Ejecutar el script de extracción
-        run: ./extracer_urls_paralelo.sh
+        run: ./extraer_urls_paralelo.sh
 
       - name: Verificar cambios en es_gambling_hosts.txt
         run: |
