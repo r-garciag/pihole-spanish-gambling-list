@@ -1,1 +1,33 @@
+name: Ejecutar script diariamente
 
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Se ejecuta todos los días a las 03:00 UTC
+  workflow_dispatch:  # Permite la ejecución manual del flujo de trabajo
+
+jobs:
+  ejecutar-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v2
+
+      - name: Configurar permisos de ejecución para el script
+        run: chmod +x extraer_urls_paralelo.sh
+
+      - name: Ejecutar el script
+        run: ./extraer_urls_paralelo.sh
+
+      - name: Configurar Git
+        run: |
+          git config --global user.name 'Nombre de Usuario'
+          git config --global user.email 'correo@example.com'
+
+      - name: Confirmar y enviar cambios
+        run: |
+          git add es_gambling_hosts.txt
+          git commit -m "Actualización diaria de es_gambling_hosts.txt"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
