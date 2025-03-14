@@ -4,56 +4,9 @@
 # ============================================================================
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores"
 # Last update: 14-03-2025
-# Number of unique domains: 120
+# Number of unique domains: 115
 # This host file tries to disable all gambling-related websites
 # that operates in Spain. Urls provided by the Ministry of Consumer of Spain.
-http://transparencia.gob.es/
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=0
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=1
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=2
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=3
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=4
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=5
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=6
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=7
-http://www.ordenacionjuego.es/ca/operadores-juego/operadores-licencia/operadores?page=8
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=0
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=1
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=2
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=3
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=4
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=5
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=6
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=7
-http://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=8
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=0
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=1
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=2
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=3
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=4
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=5
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=6
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=7
-http://www.ordenacionjuego.es/eu/operadores-juego/operadores-licencia/operadores?page=8
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=0
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=1
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=2
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=3
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=4
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=5
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=6
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=7
-http://www.ordenacionjuego.es/gl/operadores-juego/operadores-licencia/operadores?page=8
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=0
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=1
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=2
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=3
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=4
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=5
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=6
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=7
-http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=8
 https://777.es
 https://Apuestas.betfair.es
 https://Emotivacasino.es
@@ -63,7 +16,6 @@ https://apuestas.kirolbet.es
 https://apuestas.marca.es
 https://apuestas.retabet.es
 https://casino.bet365.es
-https://datos.gob.es/es/catalogo?_publisher_display_name_limit=0&amp;publisher_display_name=Ministerio%20de%20Derechos%20Sociales%2C%20Consumo%20y%20Agenda%202030
 https://daznbet.es
 https://ebingo.es
 https://lordping.es
@@ -72,11 +24,7 @@ https://marcaapuestas.es
 https://mobile.bet365.es
 https://olybet.es
 https://oneplaycasino.es
-https://planderecuperacion.gob.es/
 https://poker.bet365.es
-https://sede.ordenacionjuego.gob.es/es
-https://sede.ordenacionjuego.gob.es/es/inf-adicional-proteccion-datos
-https://sede.ordenacionjuego.gob.es/es/sugerenciasyquejas
 https://slots.bet365.es
 https://www.1xbet.es
 https://www.888.es
@@ -139,7 +87,6 @@ https://www.mondobets.es
 https://www.monopolycasino.es
 https://www.mrgreen.es
 https://www.onecasino.es
-https://www.ordenacionjuego.es/cmis/browser?id=workspace%3A//SpacesStore/aad9737e-b86f-467c-bbe1-62e3a3a47e06
 https://www.paf.es
 https://www.partycasino.es
 https://www.partypoker.es
