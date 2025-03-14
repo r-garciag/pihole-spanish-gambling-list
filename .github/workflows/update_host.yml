@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Ejecutar script diariamente
 
 on:
@@ -31,3 +32,6 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+=======
+
+>>>>>>> parent of 7be50a2 (Delete .github/workflows directory)
