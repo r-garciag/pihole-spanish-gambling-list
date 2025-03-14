@@ -26,8 +26,11 @@ for page in {0..8}; do
     # Descargar contenido de la página (ignorando certificados)
     webpage_content=$(curl -ks "https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=$page")
 
-    # Extraer URLs dentro de <div class="item-list"> asegurando que sean URLs limpias
-    extracted_urls=$(echo "$webpage_content" | grep -oP '(?<=href=")https?://[^"<> ]+')
+    # Extraer el contenido dentro del div class="item-list"
+    item_list=$(echo "$webpage_content" | awk '/<div class="item-list">/,/<\/div>/')
+    # Extraer URLs dentro de la sección filtrada
+    extracted_urls=$(echo "$item_list" | grep -oP 'https://[a-zA-Z0-9./?=_-]+' | sort -u)
+
 
     # Añadir URLs al archivo solo si se encontraron
     if [[ -n "$extracted_urls" ]]; then
