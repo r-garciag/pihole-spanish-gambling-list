@@ -1,37 +1,38 @@
-<<<<<<< HEAD
-name: Ejecutar script diariamente
+name: Extract URLs and Update Repo
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Se ejecuta todos los días a las 03:00 UTC
-  workflow_dispatch:  # Permite la ejecución manual del flujo de trabajo
+    - cron: '0 0 */3 * *'  # Se ejecuta cada 3 días a medianoche UTC
+  workflow_dispatch:  # Permite ejecución manual desde GitHub Actions
 
 jobs:
-  ejecutar-script:
+  extract_and_commit:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Configurar permisos de ejecución para el script
-        run: chmod +x extraer_urls_paralelo.sh
-
-      - name: Ejecutar el script
-        run: ./extraer_urls_paralelo.sh
-
-      - name: Configurar Git
+      - name: Configurar permisos de usuario
         run: |
-          git config --global user.name 'Nombre de Usuario'
-          git config --global user.email 'correo@example.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Confirmar y enviar cambios
+      - name: Dar permisos de ejecución al script
+        run: chmod +x extracer_urls_paralelo.sh
+
+      - name: Ejecutar el script de extracción
+        run: ./extracer_urls_paralelo.sh
+
+      - name: Verificar cambios en es_gambling_hosts.txt
+        run: |
+          if git diff --exit-code es_gambling_hosts.txt; then
+            echo "No hay cambios en es_gambling_hosts.txt, no se realizará commit."
+            exit 0
+          fi
+
+      - name: Hacer commit y push si hay cambios
         run: |
           git add es_gambling_hosts.txt
-          git commit -m "Actualización diaria de es_gambling_hosts.txt"
+          git commit -m "Actualización automática de es_gambling_hosts.txt"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-=======
-
->>>>>>> parent of 7be50a2 (Delete .github/workflows directory)
