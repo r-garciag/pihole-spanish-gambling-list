@@ -32,6 +32,11 @@ The adlist will get updated as soon as the oficial site lists a new site, the la
 3.  Select `Add a custom list`.
 4.  Chose name and paste the URL (link above).
 
+### Copyright
+```
+2025, Raúl García
+```
+
 ### Credits
 * Thanks to _PiHole_ for creating an awesome tool.
 * Thanks to _Adguard_ for developing a great solution.
