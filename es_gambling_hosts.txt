@@ -3,63 +3,44 @@
 #   Spanish Gambling Sites
 # ============================================================================
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores"
-# Last update: 28-03-2025
-# Number of unique domains: 57
+# Last update: 30-03-2025
+# Number of unique domains: 38
 # This host file tries to disable all gambling-related websites
 # that operates in Spain. Urls provided by the Ministry of Consumer of Spain.
-https://777.es
+https://Emotivacasino.es
 https://apuestas.retabet.es
-https://daznbet.es
-https://ebingo.es
-https://m.apuestas.codere.es
+https://casino.bet365.es
+https://mobile.bet365.es
+https://oneplaycasino.es
+https://poker.bet365.es
+https://slots.bet365.es
 https://www.1xbet.es
-https://www.aupabet.es
-https://www.bet777.es
-https://www.betsson.es
-https://www.bluesblock.es
+https://www.bet365.es
+https://www.betfred.es
+https://www.botemania.es
 https://www.bwin.es
-https://www.casino777.es
-https://www.casinobarcelona.es
 https://www.casinogmonline.es
 https://www.casinogranmadridonline.es
 https://www.casinogranmadridtv.es
-https://www.casinogranvia.es
-https://www.casumo.es
-https://www.codere.es
-https://www.codereapuestas.es
+https://www.casinopauseandplay.es
 https://www.dafabet.es
-https://www.efbet.es
-https://www.enracha.es
 https://www.euroconcursos.es
 https://www.eurojuego.es
 https://www.eurojuegostar.es
-https://www.goldenbull.es
-https://www.gratogana.es
-https://www.interwetten.es
+https://www.goldenpark.es
 https://www.jokerbet.es
-https://www.leovegas.es
-https://www.lowen-play.es
-https://www.luckia.es
-https://www.marathonbet.es
-https://www.maratonbet.es
-https://www.mbet.es
-https://www.mondobets.es
-https://www.mrgreen.es
-https://www.paf.es
+https://www.monopolycasino.es
+https://www.onecasino.es
 https://www.partycasino.es
 https://www.partypoker.es
 https://www.paston.es
-https://www.pinatacasino.es
 https://www.retabet.es
 https://www.solcasino.es
-https://www.speedybet.es
+https://www.todoslots.es
 https://www.tonybet.es
 https://www.versus.es
 https://www.videoslots.es
 https://www.williamhill.es
 https://www.winamax.es
-https://www.yobingo.es
-https://www.yocasino.es
-https://www.yosports.es
 https://www.zebet.es
 https://www.zeturf.es
