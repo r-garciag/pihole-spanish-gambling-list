@@ -1,12 +1,17 @@
-
+#  Spanish Gambling Sites
 #
-#   Spanish Gambling Sites
-# ============================================================================
-# Based on: "https://www.ordenacionjuego.es/es/url-operadores"
-# Last update: 31-03-2025
-# Number of unique domains: 115
 # This host file tries to disable all gambling-related websites
 # that operates in Spain. Urls provided by the Ministry of Consumer of Spain.
+#
+# Based on: "https://www.ordenacionjuego.es/es/url-operadores"
+#
+#
+# Number of unique domains: 114
+#
+# Last update: 31-03-2025
+#
+# ============================================================================
+
 https://777.es
 https://Apuestas.betfair.es
 https://Emotivacasino.es
