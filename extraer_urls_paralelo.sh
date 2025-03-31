@@ -1,23 +1,8 @@
 #!/bin/bash
 
 # Archivo de salida
-OUTPUT_FILE="es_gambling_hosts.txt"
-
-# Cabecera del archivo
-echo "#   Spanish Gambling Sites
-#
-# This host file tries to disable all gambling-related websites
-# that operates in Spain. Urls provided by the Ministry of Consumer of Spain.
-#
-# Based on: \"https://www.ordenacionjuego.es/es/url-operadores\"
-#
-#
-# Number of unique domains: XX
-#
-# Last update: $(date +"%d-%m-%Y")
-#
-# ============================================================================
-" > "$OUTPUT_FILE"
+OUTPUT_FILE="hosts.txt"
+OUTPUT_FILE_CON_ENCABEZADO="es_gambling_hosts.txt"
 
 # Rango de páginas a revisar
 for page in {0..8}; do
@@ -29,8 +14,7 @@ for page in {0..8}; do
     # Extraer el contenido dentro del div class="item-list"
     item_list=$(echo "$webpage_content" | awk '/<div class="item-list">/,/<\/div>/')
     # Extraer URLs dentro de la sección filtrada
-    extracted_urls=$(echo "$item_list" | grep -oP 'https://[a-zA-Z0-9./?=_-]+' | sort -u)
-
+    extracted_urls=$(echo "$item_list" | grep -oE 'https?://[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' | sort -u)
 
     # Añadir URLs al archivo solo si se encontraron
     if [[ -n "$extracted_urls" ]]; then
@@ -44,7 +28,30 @@ sort -u -o "$OUTPUT_FILE" "$OUTPUT_FILE"
 # Contar el número de dominios únicos (sin rutas repetidas)
 url_count=$(grep -Eo 'https?://[^/"]+' "$OUTPUT_FILE" | sort -u | wc -l)
 
-# Reemplazar el marcador XX con el número real de dominios
-sed -i "s/Number of unique domains: XX/Number of unique domains: $url_count/" "$OUTPUT_FILE"
+# Generar el encabezado con el número de dominios únicos y la fecha actual
+header="#  Spanish Gambling Sites
+#
+# This host file tries to disable all gambling-related websites
+# that operates in Spain. Urls provided by the Ministry of Consumer of Spain.
+#
+# Based on: \"https://www.ordenacionjuego.es/es/url-operadores\"
+#
+#
+# Number of unique domains: $url_count
+#
+# Last update: $(date +"%d-%m-%Y")
+#
+# ============================================================================
+"
 
-echo "Extracción completa. Se encontraron $url_count dominios únicos."
+# Escribir el encabezado y las URLs en el nuevo archivo
+{
+    echo "$header"
+    cat "$OUTPUT_FILE"
+} > "$OUTPUT_FILE_CON_ENCABEZADO"
+
+echo "Extracción completa. Se encontraron $url_count dominios únicos. El resultado se ha guardado en $OUTPUT_FILE_CON_ENCABEZADO"
+
+# Mostrar el contenido del nuevo archivo
+echo "Contenido de $OUTPUT_FILE_CON_ENCABEZADO:"
+cat "$OUTPUT_FILE_CON_ENCABEZADO"
