@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores"
 #
 #
-# Number of unique domains: 114
+# Number of unique domains: 113
 #
-# Last update: 04-06-2025
+# Last update: 07-06-2025
 #
 # ============================================================================
 
@@ -78,7 +78,6 @@ https://www.interwetten.es
 https://www.jokerbet.es
 https://www.juegging.es
 https://www.leovegas.es
-https://www.loteriasyapuestas.es
 https://www.lowen-play.es
 https://www.luckia.es
 https://www.lunacasino.es
