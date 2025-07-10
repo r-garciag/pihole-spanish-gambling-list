@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores"
 #
 #
-# Number of unique domains: 113
+# Number of unique domains: 115
 #
-# Last update: 07-07-2025
+# Last update: 10-07-2025
 #
 # ============================================================================
 
@@ -37,6 +37,7 @@ https://www.888casino.es
 https://www.888poker.es
 https://www.888sport.es
 https://www.AdmiralBet.es
+https://www.LuckyVegas.es
 https://www.PlayJango.es
 https://www.aconcaguapoker.es
 https://www.ahtigames.es
@@ -69,6 +70,7 @@ https://www.eucasino.es
 https://www.euroconcursos.es
 https://www.eurojuego.es
 https://www.eurojuegostar.es
+https://www.geckoplay.es
 https://www.gentingcasino.es
 https://www.goldenbull.es
 https://www.goldenpark.es
