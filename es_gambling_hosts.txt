@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores"
 #
 #
-# Number of unique domains: 115
+# Number of unique domains: 116
 #
-# Last update: 10-07-2025
+# Last update: 13-07-2025
 #
 # ============================================================================
 
@@ -39,6 +39,7 @@ https://www.888sport.es
 https://www.AdmiralBet.es
 https://www.LuckyVegas.es
 https://www.PlayJango.es
+https://www.PrimeCasino.es
 https://www.aconcaguapoker.es
 https://www.ahtigames.es
 https://www.aupabet.es
