@@ -6,15 +6,14 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores"
 #
 #
-# Number of unique domains: 116
+# Number of unique domains: 115
 #
-# Last update: 04-09-2025
+# Last update: 07-09-2025
 #
 # ============================================================================
 
 https://777.es
 https://Apuestas.betfair.es
-https://Emotivacasino.es
 https://Fuegocasino.es
 https://SlotStars.es
 https://apuestas.kirolbet.es
