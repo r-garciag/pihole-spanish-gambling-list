@@ -5,7 +5,7 @@ OUTPUT_FILE_TEMP="hosts_temp.txt"
 # Archivo de salida final con formato Pi-hole (solo dominios)
 OUTPUT_FILE_PIHOLE="hosts_pihole.txt"
 # Archivo de salida final con formato Pi-hole y encabezado
-OUTPUT_FILE_CON_ENCABEZADO="es_gambling_hosts_pihole.txt"
+OUTPUT_FILE_CON_ENCABEZADO="es_gambling_hosts.txt"
 
 # Limpiar archivo temporal si existe de ejecuciones anteriores
 > "$OUTPUT_FILE_TEMP"
