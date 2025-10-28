@@ -24,13 +24,6 @@ jobs:
       - name: Ejecutar el script de extracción
         run: ./extraer_urls_paralelo.sh
 
-      - name: Verificar cambios en es_gambling_hosts.txt
-        run: |
-          if git diff --exit-code es_gambling_hosts.txt; then
-            echo "No hay cambios en es_gambling_hosts.txt, no se realizará commit."
-            exit 0
-          fi
-
       - name: Hacer commit y push si hay cambios
         run: |
           git add es_gambling_hosts.txt
