@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 115
+# Number of unique domains: 116
 #
-# Last update: 22-11-2025
+# Last update: 25-11-2025
 #
 # ============================================================================
 
@@ -117,6 +117,7 @@ swiftcasino.es
 todoslots.es
 tombola.es
 tonybet.es
+tuzoca.es
 versus.es
 videoslots.es
 williamhill.es
