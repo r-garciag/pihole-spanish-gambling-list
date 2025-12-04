@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 116
+# Number of unique domains: 117
 #
-# Last update: 01-12-2025
+# Last update: 04-12-2025
 #
 # ============================================================================
 
@@ -114,6 +114,7 @@ speedybet.es
 spingenie.es
 sportium.es
 swiftcasino.es
+tikitakaplay.es
 todoslots.es
 tombola.es
 tonybet.es
