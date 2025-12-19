@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 117
+# Number of unique domains: 119
 #
-# Last update: 16-12-2025
+# Last update: 19-12-2025
 #
 # ============================================================================
 
@@ -57,6 +57,7 @@ dafabet.es
 daznbet.es
 ebingo.es
 efbet.es
+emotivacasino.es
 enracha.es
 eucasino.es
 euroconcursos.es
@@ -73,6 +74,7 @@ jokerbet.es
 juegging.es
 leovegas.es
 lordping.es
+loteriasyapuestas.es
 lowen-play.es
 luckia.es
 lunacasino.es
