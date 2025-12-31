@@ -6,12 +6,13 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 111
+# Number of unique domains: 119
 #
-# Last update: 28-12-2025
+# Last update: 31-12-2025
 #
 # ============================================================================
 
+1xbet.es
 777.es
 888.es
 888casino.es
@@ -69,6 +70,7 @@ goldenpark.es
 gratogana.es
 ice36.es
 interwetten.es
+jokerbet.es
 juegging.es
 leovegas.es
 lordping.es
@@ -119,7 +121,13 @@ todoslots.es
 tombola.es
 tonybet.es
 tuzoca.es
+versus.es
+videoslots.es
+williamhill.es
+winamax.es
 yaasscasino.es
 yobingo.es
 yocasino.es
 yosports.es
+zebet.es
+zeturf.es
