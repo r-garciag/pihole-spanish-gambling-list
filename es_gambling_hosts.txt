@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 106
+# Number of unique domains: 119
 #
-# Last update: 31-01-2026
+# Last update: 01-02-2026
 #
 # ============================================================================
 
@@ -30,11 +30,13 @@ ahtigames.es
 apuestas.kirolbet.es
 apuestas.marca.es
 apuestas.retabet.es
+aupabet.es
 bacanaplay.es
 bet365.es
 bet777.es
 betfair.es
 betfred.es
+betsson.es
 betway.es
 bluesblock.es
 botemania.es
@@ -63,7 +65,9 @@ eurojuego.es
 eurojuegostar.es
 geckoplay.es
 gentingcasino.es
+goldenbull.es
 goldenpark.es
+gratogana.es
 ice36.es
 interwetten.es
 jokerbet.es
@@ -75,18 +79,25 @@ lowen-play.es
 luckia.es
 lunacasino.es
 m.apuestas.codere.es
+marathonbet.es
+maratonbet.es
 marcaapuestas.es
 marcacasino.es
+mbet.es
 megacasinos.es
 metalcasino.es
 mobile.bet365.es
+mondobets.es
 monopolycasino.es
+mrgreen.es
 olybet.es
 onecasino.es
 oneplaycasino.es
+paf.es
 partycasino.es
 partypoker.es
 paston.es
+pinatacasino.es
 platincasino.es
 playtoro.es
 playuzu.es
@@ -101,6 +112,7 @@ slingocasino.es
 slots.bet365.es
 slotsmagic.es
 solcasino.es
+speedybet.es
 spingenie.es
 sportium.es
 swiftcasino.es
@@ -108,6 +120,7 @@ tikitakaplay.es
 todoslots.es
 tombola.es
 tonybet.es
+tuzoca.es
 versus.es
 videoslots.es
 williamhill.es
