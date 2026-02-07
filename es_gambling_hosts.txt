@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 119
+# Number of unique domains: 120
 #
-# Last update: 04-02-2026
+# Last update: 07-02-2026
 #
 # ============================================================================
 
@@ -77,6 +77,7 @@ lordping.es
 loteriasyapuestas.es
 lowen-play.es
 luckia.es
+luckycasino.es
 lunacasino.es
 m.apuestas.codere.es
 marathonbet.es
