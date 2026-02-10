@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 120
+# Number of unique domains: 107
 #
-# Last update: 07-02-2026
+# Last update: 10-02-2026
 #
 # ============================================================================
 
@@ -32,16 +32,13 @@ apuestas.marca.es
 apuestas.retabet.es
 aupabet.es
 bacanaplay.es
-bet365.es
 bet777.es
 betfair.es
 betfred.es
 betsson.es
 betway.es
 bluesblock.es
-botemania.es
 bwin.es
-casino.bet365.es
 casino777.es
 casinobarcelona.es
 casinogmonline.es
@@ -49,7 +46,6 @@ casinogranmadridonline.es
 casinogranmadridtv.es
 casinogranvia.es
 casinomarca.es
-casinopauseandplay.es
 casumo.es
 codere.es
 codereapuestas.es
@@ -66,7 +62,6 @@ eurojuegostar.es
 geckoplay.es
 gentingcasino.es
 goldenbull.es
-goldenpark.es
 gratogana.es
 ice36.es
 interwetten.es
@@ -77,7 +72,6 @@ lordping.es
 loteriasyapuestas.es
 lowen-play.es
 luckia.es
-luckycasino.es
 lunacasino.es
 m.apuestas.codere.es
 marathonbet.es
@@ -87,13 +81,9 @@ marcacasino.es
 mbet.es
 megacasinos.es
 metalcasino.es
-mobile.bet365.es
 mondobets.es
-monopolycasino.es
 mrgreen.es
 olybet.es
-onecasino.es
-oneplaycasino.es
 paf.es
 partycasino.es
 partypoker.es
@@ -102,7 +92,6 @@ pinatacasino.es
 platincasino.es
 playtoro.es
 playuzu.es
-poker.bet365.es
 pokerstars.es
 pokerstarscasino.es
 pokerstarsmobile.es
@@ -110,7 +99,6 @@ pokerstarssports.es
 retabet.es
 royale500.es
 slingocasino.es
-slots.bet365.es
 slotsmagic.es
 solcasino.es
 speedybet.es
@@ -118,7 +106,6 @@ spingenie.es
 sportium.es
 swiftcasino.es
 tikitakaplay.es
-todoslots.es
 tombola.es
 tonybet.es
 tuzoca.es
