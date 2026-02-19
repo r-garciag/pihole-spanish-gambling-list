@@ -6,12 +6,13 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 99
+# Number of unique domains: 123
 #
-# Last update: 16-02-2026
+# Last update: 19-02-2026
 #
 # ============================================================================
 
+1xbet.es
 777.es
 888.es
 888casino.es
@@ -29,6 +30,7 @@ ahtigames.es
 apuestas.kirolbet.es
 apuestas.marca.es
 apuestas.olybet.es
+apuestas.retabet.es
 aupabet.es
 bacanaplay.es
 bet365.es
@@ -40,20 +42,29 @@ betway.es
 blog.olybet.es
 bluesblock.es
 botemania.es
+bwin.es
 casino.bet365.es
 casino777.es
 casinobarcelona.es
+casinogmonline.es
+casinogranmadridonline.es
+casinogranmadridtv.es
 casinogranvia.es
 casinomarca.es
 casinopauseandplay.es
 casumo.es
 codere.es
 codereapuestas.es
+dafabet.es
 daznbet.es
 ebingo.es
+efbet.es
 emotivacasino.es
 enracha.es
 eucasino.es
+euroconcursos.es
+eurojuego.es
+eurojuegostar.es
 geckoplay.es
 gentingcasino.es
 goldenbull.es
@@ -61,6 +72,7 @@ goldenpark.es
 gratogana.es
 ice36.es
 interwetten.es
+jokerbet.es
 juegging.es
 leovegas.es
 lordping.es
@@ -85,6 +97,9 @@ olybet.es
 onecasino.es
 oneplaycasino.es
 paf.es
+partycasino.es
+partypoker.es
+paston.es
 pinatacasino.es
 platincasino.es
 playtoro.es
@@ -94,10 +109,12 @@ pokerstars.es
 pokerstarscasino.es
 pokerstarsmobile.es
 pokerstarssports.es
+retabet.es
 royale500.es
 slingocasino.es
 slots.bet365.es
 slotsmagic.es
+solcasino.es
 speedybet.es
 spingenie.es
 sportium.es
@@ -105,9 +122,16 @@ swiftcasino.es
 tikitakaplay.es
 todoslots.es
 tombola.es
+tonybet.es
 tuzoca.es
+versus.es
+videoslots.es
 welcome.olybet.es
+williamhill.es
+winamax.es
 yaasscasino.es
 yobingo.es
 yocasino.es
 yosports.es
+zebet.es
+zeturf.es
