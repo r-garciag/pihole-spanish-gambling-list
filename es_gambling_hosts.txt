@@ -6,13 +6,14 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 122
+# Number of unique domains: 124
 #
-# Last update: 01-06-2026
+# Last update: 04-06-2026
 #
 # ============================================================================
 
 1xbet.es
+44-aces.es
 777.es
 888.es
 888casino.es
@@ -50,6 +51,7 @@ casinogmonline.es
 casinogranmadridonline.es
 casinogranmadridtv.es
 casinogranvia.es
+casinomarbella.es
 casinomarca.es
 casinopauseandplay.es
 casumo.es
