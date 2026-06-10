@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 124
+# Number of unique domains: 125
 #
-# Last update: 07-06-2026
+# Last update: 10-06-2026
 #
 # ============================================================================
 
@@ -111,6 +111,7 @@ pokerstars.es
 pokerstarscasino.es
 pokerstarsmobile.es
 pokerstarssports.es
+regencycasino.es
 retabet.es
 royale500.es
 slingocasino.es
