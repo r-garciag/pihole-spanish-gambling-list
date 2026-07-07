@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 125
+# Number of unique domains: 126
 #
-# Last update: 04-07-2026
+# Last update: 07-07-2026
 #
 # ============================================================================
 
@@ -39,6 +39,7 @@ bet365.es
 bet777.es
 betfair.es
 betfred.es
+betinia.es
 betsson.es
 betway.es
 bluesblock.es
