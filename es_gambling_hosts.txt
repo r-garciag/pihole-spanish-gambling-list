@@ -6,14 +6,15 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 110
+# Number of unique domains: 126
 #
-# Last update: 13-07-2026
+# Last update: 16-07-2026
 #
 # ============================================================================
 
 1xbet.es
 44-aces.es
+777.es
 888.es
 888casino.es
 888poker.es
@@ -29,11 +30,13 @@ SlotStars.es
 aconcaguapoker.es
 ahtigames.es
 apuestas.kirolbet.es
+apuestas.marca.es
 apuestas.olybet.es
 apuestas.retabet.es
 aupabet.es
 bacanaplay.es
 bet365.es
+bet777.es
 betfair.es
 betfred.es
 betinia.es
@@ -43,11 +46,21 @@ bluesblock.es
 botemania.es
 bwin.es
 casino.bet365.es
+casino777.es
+casinobarcelona.es
 casinogmonline.es
 casinogranmadridonline.es
 casinogranmadridtv.es
+casinogranvia.es
+casinomarbella.es
+casinomarca.es
 casinopauseandplay.es
+casumo.es
+codere.es
+codereapuestas.es
 dafabet.es
+daznbet.es
+ebingo.es
 efbet.es
 emotivacasino.es
 enracha.es
@@ -71,8 +84,11 @@ lowen-play.es
 luckia.es
 luckycasino.es
 lunacasino.es
+m.apuestas.codere.es
 marathonbet.es
 maratonbet.es
+marcaapuestas.es
+marcacasino.es
 mbet.es
 megacasinos.es
 metalcasino.es
