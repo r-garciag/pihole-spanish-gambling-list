@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 126
+# Number of unique domains: 127
 #
-# Last update: 04-08-2026
+# Last update: 07-08-2026
 #
 # ============================================================================
 
@@ -29,6 +29,7 @@ PrimeCasino.es
 SlotStars.es
 aconcaguapoker.es
 ahtigames.es
+apuestas.juegging.es
 apuestas.kirolbet.es
 apuestas.marca.es
 apuestas.olybet.es
