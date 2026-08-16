@@ -15,7 +15,7 @@ for page in {0..8}; do
     echo "Procesando página $page..."
 
     # Descargar contenido de la página (ignorando certificados)
-    webpage_content=$(curl -ks "https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=$page")
+    webpage_content=$(curl -ks -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" -H "Accept-Language: es-ES,es;q=0.9" "https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores?page=$page")
 
     # Extraer el contenido dentro del div class="item-list"
     item_list=$(echo "$webpage_content" | awk '/<div class="item-list">/,/<\/div>/')
