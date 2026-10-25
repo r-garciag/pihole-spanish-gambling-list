@@ -6,9 +6,9 @@
 # Based on: "https://www.ordenacionjuego.es/es/url-operadores" 
 #
 #
-# Number of unique domains: 128
+# Number of unique domains: 130
 #
-# Last update: 22-10-2026
+# Last update: 25-10-2026
 #
 # ============================================================================
 
@@ -70,6 +70,7 @@ eucasino.es
 euroconcursos.es
 eurojuego.es
 eurojuegostar.es
+fortunix.es
 geckoplay.es
 gentingcasino.es
 goldenbull.es
@@ -105,6 +106,7 @@ paf.es
 partycasino.es
 partypoker.es
 paston.es
+pauseandplaybet.es
 pinatacasino.es
 platincasino.es
 playtoro.es
